@@ -1,2 +1,2 @@
-# Hazel
-Hazel Engine
+# Game Engine
+An Engine to make games with :D
