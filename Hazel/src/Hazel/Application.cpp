@@ -27,7 +27,7 @@ namespace Hazel {
 
 		
 
-		float vertices[3 * 3] = {
+		float vertices[9] = {
 			-0.5f, -0.5f, 0.0f,
 			0.0f, 0.5f, 0.0f,
 			0.5f, -0.5f, 0.0f
@@ -64,7 +64,7 @@ namespace Hazel {
 			in vec3 v_Pos;
 
 			void main() {
-				color = vec4(v_Pos * 0.5 +0.5, 1.0f);
+				color = vec4(0.4,1,0.5, 1.0f);
 			}
 		)";
 
