@@ -1344,12 +1344,12 @@
     <ClInclude Include="vendor\glm\glm\vector_relational.hpp">
       <Filter>vendor\glm\glm</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel\ImGui\Renderer\GraphicsContext.h" />
+    <ClInclude Include="src\Hazel\Renderer\GraphicsContext.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLContext.h" />
-    <ClInclude Include="src\Hazel\ImGui\Renderer\Shader.h" />
-    <ClInclude Include="src\Hazel\ImGui\Renderer\Buffer.h" />
+    <ClInclude Include="src\Hazel\Renderer\Shader.h" />
+    <ClInclude Include="src\Hazel\Renderer\Buffer.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGlBuffer.h" />
-    <ClInclude Include="src\Hazel\ImGui\Renderer\Renderer.h" />
+    <ClInclude Include="src\Hazel\Renderer\Renderer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
@@ -1380,9 +1380,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\Platform\OpenGL\OpenGLContext.cpp" />
-    <ClCompile Include="src\Hazel\ImGui\Renderer\Shader.cpp" />
-    <ClCompile Include="src\Hazel\ImGui\Renderer\Buffer.cpp" />
+    <ClCompile Include="src\Hazel\Renderer\Shader.cpp" />
+    <ClCompile Include="src\Hazel\Renderer\Buffer.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGlBuffer.cpp" />
-    <ClCompile Include="src\Hazel\ImGui\Renderer\Renderer.cpp" />
+    <ClCompile Include="src\Hazel\Renderer\Renderer.cpp" />
   </ItemGroup>
 </Project>

@@ -17,11 +17,11 @@ namespace Hazel {
 	{
 		glDeleteBuffers(GL_ARRAY_BUFFER, &m_RendererID);
 	}
-	void OpenGLVertexBuffer::Bind()
+	void OpenGLVertexBuffer::Bind() const
 	{
 		glBindBuffer(GL_ARRAY_BUFFER, m_RendererID);
 	}
-	void OpenGLVertexBuffer::UnBind()
+	void OpenGLVertexBuffer::UnBind() const
 	{
 		glBindBuffer(GL_ARRAY_BUFFER, 0);
 	}
@@ -40,12 +40,12 @@ namespace Hazel {
 	{
 		glDeleteBuffers(GL_ELEMENT_ARRAY_BUFFER, &m_RendererID);
 	}
-	void OpenGLIndexBuffer::Bind()
+	void OpenGLIndexBuffer::Bind() const
 	{
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_RendererID);
 
 	}
-	void OpenGLIndexBuffer::UnBind()
+	void OpenGLIndexBuffer::UnBind() const
 	{
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 	}

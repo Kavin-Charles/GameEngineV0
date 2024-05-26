@@ -2,14 +2,15 @@
 
 #include "Core.h"
 #include "Events/Event.h"
-#include "Renderer/Buffer.h"
 
 #include "Window.h"
 #include "Hazel/Events/KeyEvent.h"
 #include "Hazel/Events/ApplicationEvent.h"
 #include "Hazel/LayerStack.h"
-#include "Renderer/Shader.h"
+#include "Hazel/Renderer/Buffer.h"
+#include "Hazel/Renderer/Renderer.h"
 #include "Hazel/ImGui/ImGuiLayer.h"
+#include "Renderer/Shader.h"
 
 
 namespace Hazel {
